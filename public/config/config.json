@@ -1,0 +1,19 @@
+{
+  "CONTRACT_ADDRESS": "0x666",
+  "SCAN_LINK": "https://etherscan.io/address/0x666 ",
+  "TWITTER_LINK": "https://twitter.com/",
+  "NETWORK": {
+    "NAME": "Etherscan",
+    "SYMBOL": "ETH",
+    "ID": 1
+  },
+  "NFT_NAME": "MoonEggs NFT",
+  "SYMBOL": "Egg",
+  "MAX_SUPPLY": 3333,
+  "WEI_COST": 8000000000000000,
+  "DISPLAY_COST": 0.08,
+  "GAS_LIMIT": 130000,
+  "MARKETPLACE": "OPENSEA",
+  "MARKETPLACE_LINK": "https://opensea.io/collection/",
+  "SHOW_BACKGROUND": true
+}
