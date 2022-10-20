@@ -1,4 +1,4 @@
-# CryptoMax
+# tomatosoupnft
 # ![](/public/config/images/pfp.png)
 
 ## 📜Info
