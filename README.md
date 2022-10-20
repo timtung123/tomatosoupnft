@@ -1,12 +1,13 @@
 # CryptoMax
-# ![](/public/config/images/4X4.png)CryptoMax NFT
+# ![](/public/config/images/pfp.png)
 
 ## 📜Info
 
-### ⭐Website Link : [Here](https://crypto-max.xyz/)
+### ⭐Website Link : [Here](tomatosoupnft.netlify.app)
 
 - #### 👤Author : [Tim](https://linkby.tw/timtung.eth)
-- #### ⛵Opensea : [Here](https://opensea.io/collection/cryptomaxweb3)
-- #### 📈Etherscan : [Here](https://etherscan.io/address/0x46a026ba6537edca574990666d69cc3b3b85f456)
+- #### ⛵Opensea : [Here](https://opensea.io/collection/tomatosoupnft)
+- #### 🐦Twitter : [Here](https://twitter.com/tomatosoupNFT)
+- #### 📈Etherscan : [Here](https://etherscan.io/address/)
 
 ![](./images/banner.jpg)
