@@ -1,11 +1,11 @@
 {
-  "CONTRACT_ADDRESS": "0x52B56Eb493cFB068B77903e0c8D206482491380f",
-  "SCAN_LINK": "https://goerli.etherscan.io/address/0x52B56Eb493cFB068B77903e0c8D206482491380f",
-  "TWITTER_LINK": "https://twitter.com/",
+  "CONTRACT_ADDRESS": "0x000",
+  "SCAN_LINK": "https://goerli.etherscan.io/address/0x000",
+  "TWITTER_LINK": "https://twitter.com/tomatosoupNFT",
   "NETWORK": {
     "NAME": "Etherscan",
     "SYMBOL": "ETH",
-    "ID": 5
+    "ID": 1
   },
   "NFT_NAME": "Tomatosoup NFT",
   "SYMBOL": "Tomatosoup",
