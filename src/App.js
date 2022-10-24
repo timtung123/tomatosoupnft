@@ -146,7 +146,7 @@ function App() {
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
-  const [feedback, setFeedback] = useState(`mint your tomatochip 0.008 eth `);
+  const [feedback, setFeedback] = useState(`mint your first tomatochip for free than 0.008 eth `);
   const [mintAmount, setmintAmount] = useState(1);
   const [freemint, setFreemint] = useState(false);
   const [CONFIG, SET_CONFIG] = useState({
@@ -182,7 +182,7 @@ function App() {
     let gasLimit = CONFIG.GAS_LIMIT;
     let totalCostWei = String(cost * mintAmount);
     if (freemint == false) {
-      totalCostWei = String(cost * mintAmount);
+      totalCostWei = String(cost * mintAmount - cost);
     }
     let totalGasLimit = String(gasLimit + mintAmount * 120000);
     console.log("Cost: ", totalCostWei);
