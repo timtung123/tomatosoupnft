@@ -363,19 +363,6 @@ function App() {
                 {truncate(CONFIG.CONTRACT_ADDRESS, 15)}
               </StyledLink>
             </s.TextDescription>
-            {
-              console.log(isProof)
-            }
-            {!isProof ? (
-              <>
-                <s.TextTitle
-                  style={{ textAlign: "center", color: "var(--accent-text)" }}
-                >
-                you are not on Whitelist.
-                </s.TextTitle>
-              </>
-            ) : (
-              <>
                 <s.TextTitle
                   style={{ textAlign: "center", color: "var(--accent-text)" }}
                 >
@@ -477,7 +464,6 @@ function App() {
                   </>
                 )}
               </>
-            )}
           </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
