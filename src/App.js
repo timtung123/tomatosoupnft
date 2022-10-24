@@ -497,8 +497,7 @@ function App() {
                       >
                     {claimingNft ? "MINTING " : "Public MINT"}
                       </StyledButton>
-                      <s.SpacerMedium />x``
-                       /*   <StyledButton2
+                       {/* <StyledButton2
                         disabled={claimingNft ? 1 : 0}
                         onClick={(e) => {
                           e.preventDefault();
@@ -507,7 +506,7 @@ function App() {
                         }}
                       >
                         {claimingNft ? "MINTING " : "Whitelist MINT"}
-                      </StyledButton2> */
+                      </StyledButton2>  */}
                     </s.Container>
                   </>
                 )}
