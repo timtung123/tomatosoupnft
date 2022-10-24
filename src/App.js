@@ -289,7 +289,7 @@ function App() {
     setmintAmount(newmintAmount);
   };
 
-  const getData = () => {
+  /* const getData = () => {
     if (blockchain.account !== "" && blockchain.smartContract !== null) {
       dispatch(fetchData(blockchain.account));
       let leaf = keccak256(blockchain.account);
@@ -303,7 +303,7 @@ function App() {
         isProof = false
       }
     }
-  };
+  }; */
 
   const getConfig = async () => {
     const configResponse = await fetch("/config/config.json", {
@@ -505,10 +505,10 @@ function App() {
                           getData();
                         }}
                       >
-                        {claimingNft ? "MINTING " : "Public MINT"}
+                    {claimingNft ? "MINTING " : "Public MINT"}
                       </StyledButton>
                       <s.SpacerMedium />x``
-                      <StyledButton2
+                       /*   <StyledButton2
                         disabled={claimingNft ? 1 : 0}
                         onClick={(e) => {
                           e.preventDefault();
@@ -517,7 +517,7 @@ function App() {
                         }}
                       >
                         {claimingNft ? "MINTING " : "Whitelist MINT"}
-                      </StyledButton2>
+                      </StyledButton2> */
                     </s.Container>
                   </>
                 )}
