@@ -1,6 +1,6 @@
 {
-  "CONTRACT_ADDRESS": "0x000",
-  "SCAN_LINK": "https://goerli.etherscan.io/address/0x000",
+  "CONTRACT_ADDRESS": "0x5Bb99C7A90Ac5E5379534daE76576896933DcBBC",
+  "SCAN_LINK": "https://etherscan.io/address/0x5Bb99C7A90Ac5E5379534daE76576896933DcBBC",
   "TWITTER_LINK": "https://twitter.com/tomatosoupNFT",
   "NETWORK": {
     "NAME": "Etherscan",
