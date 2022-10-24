@@ -463,7 +463,6 @@ function App() {
                     </s.Container>
                   </>
                 )}
-              </>
           </s.Container>
         </ResponsiveWrapper>
         <s.SpacerMedium />
