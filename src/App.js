@@ -289,21 +289,11 @@ function App() {
     setmintAmount(newmintAmount);
   };
 
-  /* const getData = () => {
+  const getData = () => {
     if (blockchain.account !== "" && blockchain.smartContract !== null) {
       dispatch(fetchData(blockchain.account));
-      let leaf = keccak256(blockchain.account);
-      let proof = tree.getHexProof(leaf);
-      console.log('Proof of account: ', proof);
-      if (proof.length !== 0){
-        console.log('you are on Whitelist')
-        isProof = true
-      }else {
-        console.log('you are not on Whitelist')
-        isProof = false
-      }
     }
-  }; */
+  };
 
   const getConfig = async () => {
     const configResponse = await fetch("/config/config.json", {
