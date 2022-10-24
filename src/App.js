@@ -146,7 +146,7 @@ function App() {
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
   const [claimingNft, setClaimingNft] = useState(false);
-  const [feedback, setFeedback] = useState(`Whitelist get 1 Freemint than 0.008 per`);
+  const [feedback, setFeedback] = useState(`mint your tomatochip 0.008 eth `);
   const [mintAmount, setmintAmount] = useState(1);
   const [freemint, setFreemint] = useState(false);
   const [CONFIG, SET_CONFIG] = useState({
